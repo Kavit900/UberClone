@@ -3,15 +3,12 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "start": "react-native start",
-    "test": "jest",
-    "lint": "eslint ."
+    "start": "sed -i '' '/s.resources/d' ./node_modules/react-native-vector-icons/RNVectorIcons.podspec"
   },
   "dependencies": {
     "react": "17.0.1",
     "react-native": "0.64.0",
+    "react-native-google-places-autocomplete": "^2.2.0",
     "react-native-vector-icons": "^8.1.0"
   },
   "devDependencies": {
@@ -26,8 +23,5 @@
   },
   "jest": {
     "preset": "react-native"
-  },
-  "scripts": {
-    "start": "sed -i '' '/s.resources/d' ./node_modules/react-native-vector-icons/RNVectorIcons.podspec"
   }
 }
