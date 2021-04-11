@@ -1,0 +1,6 @@
+module Pods_UberClone_UberCloneTests {
+  umbrella header "Pods-UberClone-UberCloneTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
