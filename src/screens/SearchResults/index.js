@@ -1,10 +1,14 @@
 import React from "react";
 import {View, Text} from "react-native";
 
+import HomeMap from "../../components/HomeMap";
+import UberTypes from "../../components/UberTypes";
+
 const SearchResults = (props) => {
   return (
     <View>
-      <Text>Search Results component</Text>
+      <HomeMap />
+      <UberTypes />
     </View>
   );
 };

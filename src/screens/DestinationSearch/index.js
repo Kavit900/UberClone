@@ -10,6 +10,9 @@ import styles from './styles.js';
 
 import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
 
+// Import config keys
+import config from '../../../config.js';
+
 const DestinationSearch = (props) => {
   const [originPlace, setOriginPlace] = useState(null);
   const [destinationPlace, setDestinationPlace] = useState(null);
@@ -51,7 +54,7 @@ const DestinationSearch = (props) => {
           }}
           fetchDetails
           query={{
-            key: 'AIzaSyBvJ2LYUE7Gx0F8iEQGLXgk8SnrVWkWRAA',
+            key: config.GOOGLE_PAGES_API_KEY,
             language: 'en',
           }}
         />
