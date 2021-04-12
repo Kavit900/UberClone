@@ -7,6 +7,28 @@ We have three folders
 - screens
 
 
+## How to integrate Google Places API
+1. Create a Google Developer account.
+2. Create a new Project on Google developer account.
+3. Enable billing on your account.
+4. Enable Google Places API.
+5. Create an API key by going into your Project -> credentials.
+6. Install react native google places library.
+7. Import and start using it.
+
+## How to integrate Google Maps
+1. Create a Google Developer account.
+2. Create a new Project on Google developer account.
+3. Enable billing on your account.
+4. Enable Google Maps API.
+5. Get API key.
+6. Install react native google maps library.
+7. Import and start using it.
+
+## How to create Lines on Google Maps
+1. Install the library - react-native-maps-direction
+2. 
+
 ## Troubleshooting
 
 ### [Error] - 'Multiple commands produce' error because of font related dependency
